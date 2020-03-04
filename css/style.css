@@ -1,0 +1,33 @@
+.area {
+    background: chartreuse;
+    width: 480px;
+    height: 580px;
+    margin: 2% auto 0 auto;
+    color: black;
+}
+
+#a1, #a2, #a3, #b1, #b2, #b3, #c1, #c2, #c3 {
+    border: solid;
+    height: 150px; 
+    width: 150px;
+    font-size: 90pt;
+    text-align: center;
+    font-weight: bolder;
+
+} 
+
+button {
+    width: 30%;
+    height: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+}
+
+.placar {
+    font-size: 20pt;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-style: italic;
+}
