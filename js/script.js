@@ -30,7 +30,7 @@ function fimDeJogo() {
     
     if (!!(document.getElementById("c1").innerHTML && document.getElementById("c2").innerHTML && document.getElementById("c3").innerHTML)) {
         if ((document.getElementById("c1").innerHTML === document.getElementById("c2").innerHTML) &&
-        (document.getElementById("c2"=== document.getElementById("c3").innerHTML))) {
+        (document.getElementById("c2").innerHTML === document.getElementById("c3").innerHTML)) {
             vezDeJogar.innerHTML=`O jogador ${vez} venceu!`
             acabou = true
         }
